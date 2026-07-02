@@ -127,15 +127,6 @@ export default function Footer() {
           </p>
           <p className="text-white/50 text-xs">
             &copy; 2026 Novaforma. Tous droits reserves.
-            {' '}&mdash;{' '}
-            <a
-              href="https://www.beonweb.cm/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-orange-400 transition-colors duration-200"
-            >
-              Powered by <span className="text-white/70">Beonweb</span>
-            </a>
           </p>
           <div className="flex items-center gap-2">
             <CheckCircle className="w-3 h-3 text-emerald-400" />
