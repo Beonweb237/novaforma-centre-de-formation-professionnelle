@@ -26,10 +26,10 @@ export default function TrainingCard({ training, index = 0 }: TrainingCardProps)
         />
         {/* Domain Badge */}
         <div
-          className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide"
+          className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide backdrop-blur-sm"
           style={{
-            backgroundColor: training.domainColor + '20',
-            color: training.domainColor,
+            backgroundColor: training.domainColor + '60',
+            color: '#FFFFFF',
           }}
         >
           {training.domain}

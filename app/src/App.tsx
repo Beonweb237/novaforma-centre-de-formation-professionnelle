@@ -7,6 +7,7 @@ import Financing from './pages/Financing'
 import Companies from './pages/Companies'
 import About from './pages/About'
 import Blog from './pages/Blog'
+import BlogPost from './pages/BlogPost'
 import Contact from './pages/Contact'
 import Dashboard from './pages/Dashboard'
 import Admin from './pages/Admin'
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/entreprises" element={<Companies />} />
         <Route path="/a-propos" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/espace-stagiaire" element={<Dashboard />} />
         <Route path="/admin" element={<Admin />} />
